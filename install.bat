@@ -1,6 +1,6 @@
 @echo off
-set http_proxy=http://proxy.wdf.sap.corp:8080
-set https_proxy=http://proxy.wdf.sap.corp:8080
+rem set http_proxy=http://proxy.wdf.sap.corp:8080
+rem set https_proxy=http://proxy.wdf.sap.corp:8080
 rem pip3 install venv
 IF NOT EXIST env (
 	echo "Install virtual environment."
